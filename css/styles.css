@@ -1,0 +1,86 @@
+
+/* колір основного шрифту   color: #212121; */
+
+body{
+    color: #212121;;
+}
+
+.section-color{
+    background: #2f303a;
+    width: 1600px;
+ 
+}
+
+.typography{
+    font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36364;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+}
+.box-model{
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.875;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: #fff;
+        width: 216px;
+}
+.web-studio{
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        letter-spacing: 0.03em;
+        color: #2196f3;
+}
+
+.footer{
+    background: #2f303a;
+    width: 1600px;
+}
+
+.site-nav a{
+    color: #212121;
+}
+
+.site-nav .link.current {
+color:#2196f3;
+}
+
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196f3;}
+
+.feature-list .title {
+font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.feature-list .paragraph {
+font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71429;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.875;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: #fff;
+        width: 216px;
+}
