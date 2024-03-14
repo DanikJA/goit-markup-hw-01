@@ -2,8 +2,28 @@
 /* колір основного шрифту   color: #212121; */
 
 body{
-    color: #212121;;
+    color: #212121;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    background: #fff;
 }
+
+.web-studio {
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+}
+
+.web-studio>span {
+    color: #000;
+}
+
+.web-studio {
+    text-decoration: none;
+}
+
+
 
 .section-color{
     background: #2f303a;
@@ -12,37 +32,25 @@ body{
 }
 
 .typography{
-    font-family: "Roboto", sans-serif;
         font-weight: 900;
         font-size: 44px;
-        line-height: 1.36364;
+        line-height: 1.36;
         letter-spacing: 0.06em;
         text-transform: uppercase;
         text-align: center;
         color: #fff;
 }
-.box-model{
-    font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.875;
-        letter-spacing: 0.06em;
-        text-align: center;
-        color: #fff;
-        width: 216px;
-}
-.web-studio{
-    font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 26px;
-        letter-spacing: 0.03em;
-        color: #2196f3;
+
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
+    width: 216px;
 }
 
-.footer{
-    background: #2f303a;
-    width: 1600px;
-}
 
 .site-nav a{
     color: #212121;
@@ -56,31 +64,67 @@ color:#2196f3;
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: #2196f3;}
+.site-nav .link-mails {
+    color:#757575;
+}
+.site-nav .link-mails:hover,
+.site-nav .link-mails:focus {
+color:#2196f3; 
+}
+
 
 .feature-list .title {
-font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-size: 14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
 .feature-list .paragraph {
-font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71429;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
-.button {
-    font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.875;
-        letter-spacing: 0.06em;
-        text-align: center;
+li {
+    list-style-type: none;
+}
+
+.footer {
+    background: #2f303a;
+    width: 1600px;
+}
+
+.footer-address {
+        font-weight: 400;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
         color: #fff;
-        width: 216px;
+}
+
+.footer .mail{
+    font-weight: 400;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+
+}
+
+.footer .mail:hover,
+.footer .mail:focus {
+color: white;
+}
+
+.footer .studio-footer{
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+}
+.footer .studio-footer>span {
+  color: #fff;
+}
+
+.studio-footer{
+    text-decoration: none;
 }
